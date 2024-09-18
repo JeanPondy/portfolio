@@ -1,0 +1,152 @@
+
+.hero{
+    width: 1344px;
+    height: 646px;
+   
+    display: flex;
+
+}
+.profile-pic{
+    width: 846.7px;
+    height: 7005x;
+    margin-top: -8px;
+  
+    background-image: url('../../../public/assets/img/shadows.png');
+
+
+    >img{
+       
+            width: 500px;
+            height: 700px;
+            margin-top: -8px;
+      
+            margin-left: 47px;
+    }
+
+}
+
+.iam-frontend{
+    display: flex;
+    justify-content: center;
+    align-items:start;
+  
+}
+
+h1{
+    color: white;
+}
+h2{
+    color: white;
+    font-size: 32px;
+}
+
+p{
+    color: white;
+    font-size: 32px;
+}
+.iam {
+   
+    transform: rotate(-90deg); /* Drehung um 90 Grad */
+    height: 63px;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 76.8px;
+    margin-top: 120px;
+    margin-left: -100px;
+ 
+  
+}
+.frontend{
+   // font-family: Poppins;
+   
+    font-weight: 400;
+    height: 70px;
+    font-size: 44px;
+    line-height: 69.6px;
+    color: rgba(151, 71, 255, 1) ;
+    line-height: 69.6px;
+    margin-top: -64px;
+}
+.name-beruf{
+    margin-left: -24px;
+    height: 172px;
+}
+
+.name{
+    height: 108px;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 108px;
+}
+.ober{
+    display: flex;
+  
+}
+
+.btn-talk{
+    width: 165px;
+    height: 58px;
+    justify-content: center;
+    align-items: center;
+   margin-left: 160px;
+    border-radius: 10px;
+    padding: 15px 30px 15px 30px;
+    gap: 10px;
+    position: absolute;
+    color: white;
+ 
+    background: rgba(112, 230, 28, 1);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    &:hover{
+        
+        background: rgba(151, 71, 255, 1);
+        scale: 1.2;
+
+    }
+
+}
+
+.references{
+   display: flex;
+   gap: 32px;
+    margin-top: 90px;
+    color: white;
+
+    .line{margin-top: 12px;
+        width: 100px;
+        height: 0px;
+        border-style: solid;
+        color: rgba(151, 71, 255, 1);
+    }
+
+  
+
+
+    .mail{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 27.6px;
+        color: rgba(255, 255, 255, 1);
+
+    }
+    .scroll-down{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 27.6px;
+        color: rgba(255, 255, 255, 1);
+        transform: rotate(90deg); 
+        margin-left: 460px;
+        margin-top: -140px;
+      
+    }
+
+    &:hover{
+        cursor: pointer;
+        >img{
+            scale: 1.2;
+        }
+    }
+}

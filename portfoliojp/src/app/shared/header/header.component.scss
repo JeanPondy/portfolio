@@ -1,0 +1,40 @@
+.header-menu {
+    width: 1440px; /* Fixed width */
+    height: 109.03px; /* Fixed height */
+    padding: 37px 100px; /* Padding */
+    gap: 0px; /* Gap */
+    opacity: 1; /* Set opacity to 1 for visibility */
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+
+    > img {
+        width: 150px; /* Width of the image */
+        min-height: 35.03px; /* Minimum height of the image */
+}
+
+}
+
+.menu{
+   
+    
+
+    > button {
+        width: 114px;
+        height: 32px;
+        color: white;
+        background-color: rgba(20, 29, 47, 1);
+        border: none;
+        cursor: pointer;
+
+        font-family: Poppins;
+        font-size: 23px;
+        font-weight: 400px;
+        line-height: 27.6px;
+
+        &:hover{
+            color: rgba(112, 230, 28, 1);
+        }
+    }
+}
+
