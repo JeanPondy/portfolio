@@ -1,0 +1,90 @@
+.about-me{
+    width: 471px;
+    height: 532px;
+    margin-left: 100px;
+    color: white;
+    //background-image: url('../../../public/assets/img/backgroundshapes.png');
+
+    .location{
+        display: flex;
+        gap: 16px;
+
+        >img{
+            width: 25.33px;
+            height: 32px;
+        }
+        >div{
+            margin-top: 16px;
+        }
+    }
+    .bulb{
+        display: flex;
+        gap: 16px;
+
+        >img{
+            width: 22.06px;
+            height: 32px;
+        }
+        >div{
+            margin-top: 16px;
+        }
+    }
+    .vector{
+        display: flex;
+        gap: 16px;
+        margin-left: 16px;
+
+        >img{
+            width: 30px;
+            height: 30px;
+            margin-top: 16px;
+        }
+        >div{
+            margin-top: 16px;
+        }
+    }
+}
+
+.ellipse {
+    width: 453px;
+    height: 453px;
+    position: absolute;  /* Damit du die Ellipse mit top und left positionieren kannst */
+    top: 1107px;
+    left: 720px;
+    border: 4px solid rgba(112, 230, 28, 1);  /* Die grüne Rahmenfarbe */
+    border-radius: 50%;  /* Um sicherzustellen, dass es eine Ellipse ist */
+    
+    opacity: 0;  /* Setzt die Sichtbarkeit auf 0, falls du die Ellipse später einblenden möchtest */
+  }
+  
+  .about-me-pic{
+    width: 453px;
+    height: 453px;
+    margin-left: 260px;
+    border-radius: 50%;
+    border: 4px solid rgba(112, 230, 28, 1); 
+  }
+
+  .aboutMe-picture{
+    display: flex;
+  }
+  
+  .about-pic{
+    display: flex;
+
+    .line-pic{
+        position: absolute;
+        right: 0;
+        margin-top: 240px;
+        width: 560px;
+        height: 0px;
+        border-style: solid;
+        color: rgba(112, 230, 28, 1);
+
+    }
+
+    
+  }
+
+  
+

@@ -52,7 +52,7 @@ p{
     font-size: 72px;
     line-height: 76.8px;
     margin-top: 120px;
-    margin-left: -100px;
+   
  
   
 }
@@ -113,7 +113,8 @@ p{
     margin-top: 90px;
     color: white;
 
-    .line{margin-top: 12px;
+    .line{
+        margin-top: 12px;
         width: 100px;
         height: 0px;
         border-style: solid;
@@ -138,7 +139,7 @@ p{
         line-height: 27.6px;
         color: rgba(255, 255, 255, 1);
         transform: rotate(90deg); 
-        margin-left: 460px;
+        margin-left: 560px;
         margin-top: -140px;
       
     }
