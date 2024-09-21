@@ -1,0 +1,108 @@
+.pokedex{
+    width: 1168px;
+    height: 339.19px;
+    gap: 35px;
+    display: flex;
+
+   
+  
+
+    .pokedex-info{
+        width: 513px;
+        height: 339.19px;
+        //gap: 35px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        align-items: flex-end;
+
+        h3{
+            width: 196px;
+            height: 42.82px;
+            font-family: Poppins;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 38.4px;
+            color: rgba(151, 71, 255, 1);
+            text-align: right;
+          
+        }
+
+        h4{
+            width: 488px;
+            height: 28px;
+            font-family: Poppins;
+            font-weight: 400;
+            font-size: 23px;
+            line-height: 27.6px;
+            color: rgba(112, 230, 28, 1);
+            text-align: right;
+        }
+
+        p{
+            width: 513px;
+            height: 38px;
+            font-family: Poppins;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19.2px;
+            color: rgba(255, 255, 255, 1);
+            text-align: right;
+        } 
+
+        .buttons{
+            width: 375px;
+            height: 80.3px;
+            gap: 88px;
+            display: flex;
+            //align-items: center;
+            justify-content: flex-end; 
+
+            .btn-talk1{
+                width: 152px;
+                height: 58px;
+                justify-content: center;
+                align-items: center;
+                border-radius: 10px;
+                padding: 15px 30px 15px 30px;
+                gap: 10px;
+                color: white;
+                font-size: 23px;
+                background: rgba(151, 71, 255, 1);
+                box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            
+                &:hover{
+                    background: rgba(112, 230, 28, 1);
+                  
+                }
+            }
+
+            .btn-talk2{
+                width: 137px;
+                height: 58px;
+                justify-content: center;
+                align-items: center;
+                border-radius: 10px;
+                padding: 15px 30px 15px 30px;
+                gap: 10px;
+                color: white;
+                font-size: 23px;
+                border-color:  rgba(112, 230, 28, 1);
+                background: rgba(20, 29, 47, 1);
+                box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            
+                &:hover{
+                    background: rgba(112, 230, 28, 1);
+                   
+                }
+            }
+
+
+        }
+    }
+}
+
+
+
+
+

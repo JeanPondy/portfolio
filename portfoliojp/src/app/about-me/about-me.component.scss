@@ -5,6 +5,9 @@
     margin-left: 100px;
     color: white;
     //background-image: url('../../../public/assets/img/backgroundshapes.png');
+    >div{
+        margin-top: 24px;
+    }
 
     .location{
         display: flex;
@@ -14,9 +17,8 @@
             width: 25.33px;
             height: 32px;
         }
-        >div{
-            margin-top: 16px;
-        }
+       
+      
     }
     .bulb{
         display: flex;
@@ -26,9 +28,7 @@
             width: 22.06px;
             height: 32px;
         }
-        >div{
-            margin-top: 16px;
-        }
+      
     }
     .vector{
         display: flex;
@@ -38,10 +38,6 @@
         >img{
             width: 30px;
             height: 30px;
-            margin-top: 16px;
-        }
-        >div{
-            margin-top: 16px;
         }
     }
 }
