@@ -1,0 +1,349 @@
+.my-skills1{
+    position: absolute;
+    top: 1779px;
+    left: 100px;
+    height: 404px;
+    width: 1340px;
+    display: flex;
+  
+
+    .skills-icons{
+        display: flex;
+       flex-wrap: wrap;
+        width: 664px;
+        height: 404px;
+        gap:40px 88px;
+
+        .html{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            justify-content: center;
+            align-items: center;
+
+            >img{
+                width: 54px;
+                height: 60px;
+                margin-bottom: 8px;
+            }
+         
+        }
+       
+        .css{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            justify-content: center;
+            align-items: center;
+
+            >img{
+                
+                width: 52.99px;
+                height: 60px;
+                margin-bottom: 8px;
+               
+            }
+            >div{
+                width: 88px;
+                height: 101px;
+                padding: 12px 0px 0px 0px;
+                gap: 10px;
+                opacity: 0px;
+            }
+        }
+        .js{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            justify-content: center;
+            align-items: center;
+
+            >img{
+                
+                width: 60px;
+                height: 60px;
+                margin-bottom: 8px;
+               
+            }
+            >div{
+                width: 88px;
+                height: 101px;
+                padding: 12px 0px 0px 0px;
+                gap: 10px;
+                opacity: 0px;
+            }
+        }
+        .ts{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            justify-content: center;
+            align-items: center;
+
+            >img{
+                
+                width: 60px;
+                height: 60px;
+                margin-bottom: 8px;
+               
+            }
+            >div{
+                width: 88px;
+                height: 101px;
+                padding: 12px 0px 0px 0px;
+                gap: 10px;
+                opacity: 0px;
+            }
+        }
+        .angular{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            justify-content: center;
+            align-items: center;
+
+            >img{
+                
+                width: 55.8px;
+                height: 60px;
+                margin-bottom: 8px;
+               
+            }
+            >div{
+                width: 88px;
+                height: 101px;
+                padding: 12px 0px 0px 0px;
+                gap: 10px;
+                opacity: 0px;
+            }
+        }
+        .firebase{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            justify-content: center;
+            align-items: center;
+
+            >img{
+                
+                width: 43.63px;
+                height: 60px;
+                margin-bottom: 8px;
+               
+            }
+            >div{
+                width: 88px;
+                height: 101px;
+                padding: 12px 0px 0px 0px;
+                gap: 10px;
+                opacity: 0px;
+            }
+        }
+        .git{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            justify-content: center;
+            align-items: center;
+
+            >img{
+                
+                width: 60px;
+                height: 60px;
+                margin-bottom: 8px;
+               
+            }
+            >div{
+                width: 88px;
+                height: 101px;
+                padding: 12px 0px 0px 0px;
+                gap: 10px;
+                opacity: 0px;
+            }
+        }
+        .api{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            justify-content: center;
+            align-items: center;
+
+            >img{
+                
+                width: 56.69px;
+                height: 60px;
+                margin-bottom: 8px;
+               
+            }
+            >div{
+                width: 88px;
+                height: 101px;
+                padding: 12px 0px 0px 0px;
+                gap: 10px;
+                opacity: 0px;
+            }
+        }
+        .scrum{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            justify-content: center;
+            align-items: center;
+
+            >img{
+                
+                width: 60px;
+                height: 60px;
+                margin-bottom: 8px;
+               
+            }
+            >div{
+                width: 88px;
+                height: 101px;
+                padding: 12px 0px 0px 0px;
+                gap: 10px;
+                opacity: 0px;
+            }
+        }
+        .material-d{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            justify-content: center;
+            align-items: center;
+
+            >img{
+                
+                width: 60px;
+                height: 60px;
+                gap: 10px;
+                margin-bottom: 8px;
+               
+            }
+            >div{
+                width: 88px;
+                height: 120px;
+                padding: 12px 0px 0px 0px;
+                gap: 10px;
+                opacity: 0px;
+            }
+        }
+        .c-learning{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            justify-content: center;
+            align-items: center;
+
+          
+            >div{
+                width: 88px;
+                height: 120px;
+                padding: 12px 0px 0px 0px;
+               
+            }
+        }
+    }
+    .my-skills{
+        //position: absolute;
+        width: 571px;
+        height: 400px;
+        //top: 1781px;
+        //left: 869px;
+        display: flex;
+        flex-direction: column;
+
+        .skills-line{
+           
+            display: flex;
+            justify-content: space-between;
+           
+           
+            align-items: center;
+        }
+
+        h2{
+            width: 395px;
+            height: 108px;
+            font-family: Poppins;
+            font-weight: 700px;
+            font-size: 90px;
+            line-height: 108px;
+            color: white;
+           margin-left: 72px;
+        }
+        .line{
+         
+            width: 68px;
+            height: 0px;
+            border-style: solid;
+            color: rgba(151, 71, 255, 1);
+        }
+        .p1{
+            width: 471px;
+            height: 38px;
+            font-family: Poppins;
+            font-weight: 400px;
+            font-size: 16px;
+            line-height: 19.2px;
+            color: white;
+        
+        }
+        h3{
+            width: 410px;
+            height: 38px;
+            font-family: Poppins;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 38.4px;
+            color: white;
+           margin-left: 52px;
+
+           span{
+            font-weight: 900;
+            color: rgba(151, 71, 255, 1);
+
+           }
+        }
+        .p2{
+            width: 410px;
+            height: 38px;
+            font-family: Poppins;
+            font-weight: 400px;
+            font-size: 16px;
+            line-height: 19.2px;
+            color: white;
+        
+        }
+       
+        .btn-talk{
+            width: 200px;
+            height: 58px;
+            justify-content: center;
+            align-items: center;
+            margin-left: 210px;
+            margin-top: 32px;
+            border-radius: 10px;
+            padding: 15px 30px 15px 30px;
+            gap: 10px;
+          
+            color: white;
+            font-size: 23px;
+            background: rgba(112, 230, 28, 1);
+            box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        
+            &:hover{
+                
+                background: rgba(151, 71, 255, 1);
+                scale: 1.2;
+        
+            }
+        
+        }
+        
+
+    }
+}
+
+
+

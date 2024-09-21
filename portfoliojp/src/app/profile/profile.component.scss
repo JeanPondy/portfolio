@@ -1,31 +1,39 @@
 
 .hero{
+    position: absolute;
     width: 1344px;
     height: 646px;
+    top: 297px;
    
-    display: flex;
+    //display: flex;
 
 }
 .profile-pic{
-    width: 846.7px;
-    height: 7005x;
-    margin-top: -8px;
+    position: absolute;
+    width: 690.7px;
+    height: 671.38px;
+    left: 12px;
+  
   
     background-image: url('../../../public/assets/img/shadows.png');
 
 
     >img{
        
-            width: 500px;
-            height: 700px;
-            margin-top: -8px;
-      
-            margin-left: 47px;
+            width: 646px;
+            height: 705px;
+            top: 106px;
+            left: 47px;
     }
 
 }
 
 .iam-frontend{
+   
+    width: 718px;
+    height: 172px;
+    margin-left: 622px;
+    gap: 16px;
     display: flex;
     justify-content: center;
     align-items:start;
@@ -49,9 +57,14 @@ p{
     transform: rotate(-90deg); /* Drehung um 90 Grad */
     height: 63px;
     font-weight: 400;
-    font-size: 72px;
+    font-size: 64px;
+    width: 152px;
     line-height: 76.8px;
-    margin-top: 120px;
+    margin-top: 48px;
+ 
+
+
+   
    
  
   
@@ -65,7 +78,7 @@ p{
     line-height: 69.6px;
     color: rgba(151, 71, 255, 1) ;
     line-height: 69.6px;
-    margin-top: -64px;
+    margin-top: -48px;
 }
 .name-beruf{
     margin-left: -24px;
@@ -73,6 +86,7 @@ p{
 }
 
 .name{
+   
     height: 108px;
     font-weight: 700;
     font-size: 90px;
@@ -107,11 +121,26 @@ p{
 
 }
 
+.p-pic{
+    margin-left: 47px;
+    margin-top: -32px;
+}
+
 .references{
-   display: flex;
-   gap: 32px;
-    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 566px;
+    height: 40px;
+    top: 903px;
+   
     color: white;
+
+    .references-line{
+        display: flex;
+        gap: 32px;
+    }
 
     .line{
         margin-top: 12px;
@@ -133,14 +162,18 @@ p{
 
     }
     .scroll-down{
+        position: absolute;
+        left: 1344px;
+        width: 133px;
+        height: 28px;
         font-family: Poppins;
         font-weight: 400;
-        font-size: 23px;
+        font-size: 20px;
         line-height: 27.6px;
         color: rgba(255, 255, 255, 1);
         transform: rotate(90deg); 
-        margin-left: 560px;
-        margin-top: -140px;
+        margin-top: -160px;
+       
       
     }
 

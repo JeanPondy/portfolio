@@ -1,12 +1,15 @@
 .header-menu {
-    width: 1440px; /* Fixed width */
-    height: 109.03px; /* Fixed height */
-    padding: 37px 100px; /* Padding */
+ 
+    width: 1440px; 
+    height: 109.03px; 
+    padding: 37px 100px; 
     gap: 0px; /* Gap */
     opacity: 1; /* Set opacity to 1 for visibility */
     display: flex; /* Flexbox layout */
     justify-content: space-between; /* Space between items */
     align-items: center; /* Center items vertically */
+   
+   
 
     > img {
         width: 150px; /* Width of the image */
