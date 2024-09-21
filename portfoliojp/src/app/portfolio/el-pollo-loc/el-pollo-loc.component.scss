@@ -1,19 +1,26 @@
-.join{
+.el-pollo{
     width: 1168px;
     height: 339.19px;
     gap: 35px;
     display: flex;
 
     >img{
-        width: 620px;
-        height: 339px;
+        width: 475px;
+        height: 439px;
+        background-size: cover;
+       padding-left: 96px;
+      
     }
+  
 
-    .join-info{
-
+    .el-pollo-info{
+        width: 513px;
+        height: 339.19px;
+        //gap: 35px;
         display: flex;
         flex-direction: column;
         margin-top: 80px;
+        align-items: flex-end;
 
         h3{
             width: 196px;
@@ -23,6 +30,8 @@
             font-size: 32px;
             line-height: 38.4px;
             color: rgba(151, 71, 255, 1);
+            text-align: right;
+          
         }
 
         h4{
@@ -33,16 +42,18 @@
             font-size: 23px;
             line-height: 27.6px;
             color: rgba(112, 230, 28, 1);
+            text-align: right;
         }
 
         p{
             width: 513px;
-            height: 57px;
+            height: 97px;
             font-family: Poppins;
             font-weight: 400;
             font-size: 16px;
             line-height: 19.2px;
             color: rgba(255, 255, 255, 1);
+            text-align: right;
         } 
 
         .buttons{
@@ -51,6 +62,7 @@
             gap: 86px;
             display: flex;
             //align-items: center;
+            justify-content: flex-end; 
 
             .btn-talk1{
                 width: 152px;
@@ -95,6 +107,8 @@
         }
     }
 }
+
+
 
 
 
