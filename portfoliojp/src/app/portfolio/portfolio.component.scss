@@ -1,0 +1,70 @@
+.portfolio{
+    position: absolute;
+    top: 2363px;
+    left: 136px;
+    width: 1304px;
+    height: 2216.57px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+
+    .title-line{
+        position: absolute;
+        width: 1060px;
+        height: 108px;
+        left: 200px;
+        gap: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+
+        .line1{
+            width: 100px;
+            height: 0px;
+            border-style: solid;
+            color: rgba(151, 71, 255, 1);
+            margin-top: -40px;
+          
+         }
+           
+
+        .title{
+            
+            h2{
+          
+            height: 108px;
+            font-family: Poppins;
+            font-weight: 700;
+            font-size: 90px;
+            line-height: 108px;
+            
+        }
+
+        }
+        .line2{
+
+            width: 507px;
+            height: 0px;
+            border-style: solid;
+            color: rgba(151, 71, 255, 1);
+            margin-top: -40px;
+
+        }
+        
+    }
+
+    .message{
+        width: 733px;
+        height: 19px;
+        margin: 152px 0 0 217px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.2px;
+        display: flex;
+        align-items: center;
+    }
+
+
+}

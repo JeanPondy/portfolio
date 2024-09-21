@@ -1,6 +1,6 @@
 .my-skills1{
     position: absolute;
-    top: 1779px;
+    top: 1860px; // top: 1779px;
     left: 100px;
     height: 404px;
     width: 1340px;
@@ -257,28 +257,27 @@
            
             display: flex;
             justify-content: space-between;
-           
-           
             align-items: center;
+
+            h2{
+                width: 395px;
+                height: 108px;
+                font-family: Poppins;
+                font-weight: 700px;
+                font-size: 90px;
+                line-height: 108px;
+                color: white;
+               margin-left: 72px;
+            }
+
+            .line{
+                width: 68px;
+                height: 0px;
+                border-style: solid;
+                color: rgba(151, 71, 255, 1);
+            }
         }
 
-        h2{
-            width: 395px;
-            height: 108px;
-            font-family: Poppins;
-            font-weight: 700px;
-            font-size: 90px;
-            line-height: 108px;
-            color: white;
-           margin-left: 72px;
-        }
-        .line{
-         
-            width: 68px;
-            height: 0px;
-            border-style: solid;
-            color: rgba(151, 71, 255, 1);
-        }
         .p1{
             width: 471px;
             height: 38px;
