@@ -1,10 +1,35 @@
-
 body { 
   margin: 0; 
   background: rgba(20, 29, 47, 1);
+ 
+  border: 2px solid rgba(255, 255, 255, 1);
+}
 
-  }
+html, body { 
+  height: auto; 
+}
 
- html, body { 
-  height: 100%; 
-  }
+.big-bg {
+  margin-top: 388px;
+  background-image: url("./../public/assets/img/background-shapes.png");
+  background-repeat: no-repeat;
+  width: 2550.73px;
+  height: 5710.77px;
+}
+
+.profile-pic {
+  position: absolute;
+  top: 221.62px;
+  width: auto;
+  height: 671.38px;
+  left: 12px;
+  background-image: url('./../public/assets/img/photo-shadows.png'), url('./../public/assets/img/green-shadow.png');
+  background-position: center, right 50px center; 
+  background-repeat: no-repeat, no-repeat;
+  object-fit: none;
+}
+
+.profile-pic > img {
+  width: 648px;
+  height: 705px;
+}

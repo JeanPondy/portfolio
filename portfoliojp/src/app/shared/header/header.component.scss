@@ -1,5 +1,7 @@
 .header-menu {
- 
+    position: fixed;
+    margin-top: -24px;//
+    
     width: 1440px; 
     height: 109.03px; 
     padding: 37px 100px; 
@@ -8,6 +10,7 @@
     display: flex; /* Flexbox layout */
     justify-content: space-between; /* Space between items */
     align-items: center; /* Center items vertically */
+   //background-color: rgba(20, 29, 47, 1);
    
    
 
@@ -16,28 +19,37 @@
         min-height: 35.03px; /* Minimum height of the image */
 }
 
-}
-
 .menu{
-   
-    
+    padding: 37px 100px 37px 100px;
+    gap: 0px;
 
+    opacity: 0px;
+  
+
+   
     > button {
         width: 114px;
         height: 32px;
         color: white;
         background-color: rgba(20, 29, 47, 1);
-        border: none;
+       // border: none;
         cursor: pointer;
-
         font-family: Poppins;
         font-size: 23px;
         font-weight: 400px;
         line-height: 27.6px;
+        margin-right: 16px;
+       
+
 
         &:hover{
             color: rgba(112, 230, 28, 1);
+            background: rgb(179, 149, 220);
         }
     }
 }
+
+}
+
+
 
