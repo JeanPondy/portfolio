@@ -6,6 +6,7 @@
     //border: 4px solid rgba(255, 255, 255, 1);
     display: flex;
     flex-direction: column;
+    //border: 2px solid rgba(255, 255, 255, 1);
 
     .line-title{
         width: 943px;
@@ -112,6 +113,7 @@
   
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
+    margin-top: 40px;
     width: 253px;
     height: 58px;
     padding: 15px 30px 15px 30px;
@@ -126,17 +128,17 @@
     font-weight: 400;
     font-size: 23px;
     line-height: 27.6px;
+
+    &:hover{
+        background: rgba(112, 230, 28, 1);
+    }
    
+  }
 
 
-  }
+
   
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background: rgba(112, 230, 28, 1);;
-    //background-color: #45a049;
-  }
-  
+ 
   /* Add a background color and some padding around the form */
   .container {
     border-radius: 5px;
@@ -151,6 +153,7 @@
     .down-line{
         width: 24px;
         height: 24px;
+        cursor: pointer;
       
         margin-top: 32px;
         margin-left: 1310px;
@@ -195,3 +198,58 @@ textarea:focus {
   outline: none; /* Entfernt den Standard-Fokusrahmen */
   border: 2px solid rgba(255, 255, 255, 1); /* Optional: Rahmen beim Fokus */
 }
+
+
+.privacy-policy-text {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+  
+    //border: 1px solid rgba(112, 230, 28, 1);
+    //padding: 5px; /* Optional: Innenabstand für das Label */
+   // display: inline-block; /* Damit der Border sichtbar ist */
+  }
+  
+  .privacy-policy-link {
+    color: rgba(151, 71, 255, 1);
+    text-decoration: none; /* Optional: Unterstreichung entfernen */
+  }
+  
+  .privacy-policy-link:hover {
+    text-decoration: underline; /* Optional: Unterstreichung beim Hover hinzufügen */
+  }
+
+/* ---------------------------------- */
+input[type="checkbox"] {
+    appearance: none; /* Entfernt das Standard-Checkbox-Design */
+    width: 20px; /* Breite der Checkbox */
+    height: 20px; /* Höhe der Checkbox */
+    border: 2px solid  rgba(112, 230, 28, 1); /* Border-Farbe */
+    border-radius: 4px; /* Ecken abrunden */
+    display: inline-block; /* Block-Layout */
+    position: relative; /* Für das Pseudo-Element */
+    cursor: pointer; /* Cursor ändern, wenn drauf geklickt wird */
+  }
+  
+ 
+  
+  input[type="checkbox"]:checked::after {
+    content: ''; /* Leeres Pseudo-Element für das Häkchen */
+    position: absolute; /* Positioniert es relativ zur Checkbox */
+    top: 5px; /* Positioniert es innerhalb der Checkbox */
+    left: 5px; /* Positioniert es innerhalb der Checkbox */
+    width: 2px; /* Breite des Häkchens */
+    height: 10px; /* Höhe des Häkchens */
+    background-color:  rgba(112, 230, 28, 1); /* Häkchen-Farbe */
+    transform: rotate(45deg); /* Häkchen drehen */
+  }
+  
+  input[type="checkbox"]:checked::before {
+    content: ''; /* Leeres Pseudo-Element für das Häkchen */
+    position: absolute; /* Positioniert es relativ zur Checkbox */
+    top: 5px; /* Positioniert es innerhalb der Checkbox */
+    left: 8px; /* Positioniert es innerhalb der Checkbox */
+    width: 2px; /* Höhe des Häkchens */
+    height: 10px; /* Breite des Häkchens */
+    background-color:  rgba(112, 230, 28, 1); /* Häkchen-Farbe */
+  }
+  

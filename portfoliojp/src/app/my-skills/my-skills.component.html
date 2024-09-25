@@ -1,4 +1,4 @@
-<div class="my-skills1">
+<div id="my-skills" class="my-skills1">
   <div class="skills-icons">
     <div class="skill html">
       <img src="./assets/img/html.png" alt="HTML Logo" />
@@ -42,6 +42,11 @@
     </div>
     <div class="skill c-learning">
       <img src="./assets/img/clearning.png" alt="Continually Learning Logo" />
+      <img
+        src="./assets/img/overlay-interest.png"
+        alt="Overlay Image"
+        class="overlay-image"
+      />
     </div>
   </div>
   <div class="my-skills">
@@ -58,6 +63,13 @@
       Feel free to contact me. I look forward to expanding on my previous
       knowledge
     </p>
-    <button mat-fab extended class="btn-talk">Get in touch</button>
+    <button
+      mat-fab
+      extended
+      class="btn-talk"
+      (click)="scrollToSection('contact')"
+    >
+      Get in touch
+    </button>
   </div>
 </div>

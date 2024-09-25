@@ -43,12 +43,6 @@ p{
     width: 152px;
     line-height: 76.8px;
     margin-top: 48px;
- 
-
-
-   
-   
- 
   
 }
 .frontend{
@@ -106,7 +100,7 @@ p{
 .p-pic{
    
     margin-left: 80px;
-    margin-top: -64px;
+    margin-top: -34px;
   
 
    
@@ -126,6 +120,15 @@ p{
     .references-line{
         display: flex;
         gap: 32px;
+      
+        
+        >img{
+            width: 30px;
+            height: 30px;
+            &:hover{
+                scale: 1.2;
+            }
+        }
     }
 
     .line{
@@ -136,16 +139,14 @@ p{
         color: rgba(151, 71, 255, 1);
     }
 
-  
-
-
     .mail{
         font-family: Poppins;
         font-weight: 400;
         font-size: 23px;
         line-height: 27.6px;
         color: rgba(255, 255, 255, 1);
-
+        cursor: pointer;
+    
     }
     .scroll-down{
         position: absolute;
@@ -165,8 +166,5 @@ p{
 
     &:hover{
         cursor: pointer;
-        >img{
-            scale: 1.2;
-        }
     }
 }

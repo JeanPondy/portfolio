@@ -1,8 +1,23 @@
 <div class="header-menu">
   <img src="./assets/img/logo1.jpeg" alt="" />
-  <div class="menu" id="anchor1">
-    <button (click)="scrollToAnchor()">About me</button>
-    <button>Skills</button>
-    <button>Portfolio</button>
+  <div class="menu">
+    <button
+      [class.active]="activeSection === 'about-me'"
+      (click)="scrollToSection('about-me')"
+    >
+      About me
+    </button>
+    <button
+      [class.active]="activeSection === 'my-skills'"
+      (click)="scrollToSection('my-skills')"
+    >
+      Skills
+    </button>
+    <button
+      [class.active]="activeSection === 'my-portfolio'"
+      (click)="scrollToSection('my-portfolio')"
+    >
+      Portfolio
+    </button>
   </div>
 </div>

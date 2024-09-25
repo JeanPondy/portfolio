@@ -1,53 +1,70 @@
 .header-menu {
-    position: fixed;
-    margin-top: -24px;//
     
-    width: 1440px; 
-    height: 109.03px; 
-    padding: 37px 100px; 
-    gap: 0px; /* Gap */
-    opacity: 1; /* Set opacity to 1 for visibility */
-    display: flex; /* Flexbox layout */
-    justify-content: space-between; /* Space between items */
-    align-items: center; /* Center items vertically */
-   //background-color: rgba(20, 29, 47, 1);
-   
-   
+      
+    
+/*--------------------------------------------  */
 
-    > img {
-        width: 150px; /* Width of the image */
-        min-height: 35.03px; /* Minimum height of the image */
+position: fixed;
+top: 0;
+
+
+
+//margin-left: -120px;
+
+//width: 1440px; 
+width: 1440px;
+height: 109.03px; 
+padding: 37px 100px 37px 100px;
+gap: 0px; /* Gap */
+opacity: 1; /* Set opacity to 1 for visibility */
+display: flex; /* Flexbox layout */
+justify-content: space-between; /* Space between items */
+align-items: center; /* Center items vertically */
+background-color: rgba(20, 29, 47, 1);
+z-index: 1000; /* Über andere Inhalte legen */
+//border: 2px solid rgba(255, 255, 255, 1);
+
+
+> img {
+    width: 150px; /* Width of the image */
+    min-height: 35.03px; /* Minimum height of the image */
 }
 
 .menu{
-    padding: 37px 100px 37px 100px;
-    gap: 0px;
+padding: 37px 100px 37px 100px;
+gap: 0px;
 
-    opacity: 0px;
-  
+opacity: 0px;
 
+
+
+> button {
+    width: 114px;
+    height: 32px;
+    color: white;
+    background-color: rgba(20, 29, 47, 1);
+    //border: none;
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 400px;
+    line-height: 27.6px;
+    margin-right: 16px;
    
-    > button {
-        width: 114px;
-        height: 32px;
-        color: white;
-        background-color: rgba(20, 29, 47, 1);
-       // border: none;
-        cursor: pointer;
-        font-family: Poppins;
-        font-size: 23px;
-        font-weight: 400px;
-        line-height: 27.6px;
-        margin-right: 16px;
-       
-
-
-        &:hover{
-            color: rgba(112, 230, 28, 1);
-            background: rgb(179, 149, 220);
-        }
+    &:hover{
+        color: rgba(112, 230, 28, 1);
+        background: rgb(179, 149, 220);
     }
+
+ 
 }
+}
+
+
+
+            
+    
+    
 
 }
 

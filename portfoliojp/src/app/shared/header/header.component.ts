@@ -5,20 +5,25 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.scss'
+  styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
 
-    // Diese Funktion wird beim Klicken aufgerufen
-    scrollToAnchor() {
-      const anchor = document.getElementById('anchor1');  // Anker (Ziel) finden
-      if (anchor) {
-        // Scrollen mit Animation
-        anchor.scrollIntoView({
-          behavior: 'smooth',   // sorgt für die Animation
-          block: 'start',       // scrollt zum Anfang des Elements
-          inline: 'nearest'
-        });
-      }
+  activeSection: string = ''; // Variable, um den aktiven Abschnitt zu verfolgen
+
+  // Methode, um zu einem bestimmten Abschnitt zu scrollen und dabei 80px Offset oben zu lassen
+  scrollToSection(section: string) {
+    this.activeSection = section;  // Setze den aktiven Abschnitt
+    
+    const element = document.getElementById(section);
+    if (element) {
+      const yOffset = -220; // 80px Abstand vom oberen Rand
+      const yPosition = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+      window.scrollTo({
+        top: yPosition,
+        behavior: 'smooth'
+      });
     }
+  }
 }

@@ -1,4 +1,4 @@
-<div class="ober">
+<div id="ober" class="ober">
   <div class="profile-pic">
     <img class="p-pic" src="./assets/img/mapubi.png" alt="" />
   </div>
@@ -20,7 +20,13 @@
       <img src="./assets/img/github.png" alt="" />
       <img src="./assets/img/email.png" alt="" />
       <img src="./assets/img/linkedin.png" alt="" />
-      <div class="mail">mpondolpondy&#64;gmail.com</div>
+      <div
+        [class.active]="activeSection === 'about-me'"
+        (click)="scrollToSection('contact')"
+        class="mail"
+      >
+        mpondolpondy&#64;gmail.com
+      </div>
     </div>
     <div class="scroll-down">Scroll down -></div>
   </div>

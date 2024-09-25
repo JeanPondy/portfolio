@@ -3,9 +3,8 @@
     height: 339.19px;
     gap: 35px;
     display: flex;
-
-   
-  
+    margin-top: 80px;
+    //border: 2px solid rgba(255, 255, 255, 1);
 
     .pokedex-info{
         width: 513px;
@@ -13,7 +12,7 @@
         //gap: 35px;
         display: flex;
         flex-direction: column;
-        margin-top: 80px;
+        margin-top: 120px;
         align-items: flex-end;
 
         h3{

@@ -1,10 +1,13 @@
 .my-skills1{
     position: absolute;
-    top: 1779px;
-    left: 100px;
     height: 404px;
     width: 1340px;
+    top: 1779px;
+    left: 100px;
+   
     display: flex;
+    justify-content: space-between;
+    //border: 2px solid rgba(255, 255, 255, 1);
   
 
     .skills-icons{
@@ -13,6 +16,7 @@
         width: 664px;
         height: 404px;
         gap:40px 88px;
+        //border: 2px solid rgba(255, 255, 255, 1);
 
         .html{
             display: flex;
@@ -25,8 +29,11 @@
                 width: 54px;
                 height: 60px;
                 margin-bottom: 8px;
+                transition: transform 0.3s ease; /* Transition für sanfte Bewegung */
             }
-         
+            &:hover > img {
+                animation: wobble 0.8s ease-in-out infinite; /* Animation bei Hover */
+              }
         }
        
         .css{
@@ -41,8 +48,11 @@
                 width: 52.99px;
                 height: 60px;
                 margin-bottom: 8px;
-               
+                transition: transform 0.3s ease; /* Transition für sanfte Bewegung */
             }
+            &:hover > img {
+                animation: wobble 0.8s ease-in-out infinite; /* Animation bei Hover */
+              }
             >div{
                 width: 88px;
                 height: 101px;
@@ -63,8 +73,11 @@
                 width: 60px;
                 height: 60px;
                 margin-bottom: 8px;
-               
+                transition: transform 0.3s ease; /* Transition für sanfte Bewegung */
             }
+            &:hover > img {
+                animation: wobble 0.8s ease-in-out infinite; /* Animation bei Hover */
+              }
             >div{
                 width: 88px;
                 height: 101px;
@@ -85,8 +98,11 @@
                 width: 60px;
                 height: 60px;
                 margin-bottom: 8px;
-               
+                transition: transform 0.3s ease; /* Transition für sanfte Bewegung */
             }
+            &:hover > img {
+                animation: wobble 0.8s ease-in-out infinite; /* Animation bei Hover */
+              }
             >div{
                 width: 88px;
                 height: 101px;
@@ -107,8 +123,11 @@
                 width: 55.8px;
                 height: 60px;
                 margin-bottom: 8px;
-               
+                transition: transform 0.3s ease; /* Transition für sanfte Bewegung */
             }
+            &:hover > img {
+                animation: wobble 0.8s ease-in-out infinite; /* Animation bei Hover */
+              }
             >div{
                 width: 88px;
                 height: 101px;
@@ -129,8 +148,11 @@
                 width: 43.63px;
                 height: 60px;
                 margin-bottom: 8px;
-               
+                transition: transform 0.3s ease; /* Transition für sanfte Bewegung */
             }
+            &:hover > img {
+                animation: wobble 0.8s ease-in-out infinite; /* Animation bei Hover */
+              }
             >div{
                 width: 88px;
                 height: 101px;
@@ -151,8 +173,11 @@
                 width: 60px;
                 height: 60px;
                 margin-bottom: 8px;
-               
+                transition: transform 0.3s ease; /* Transition für sanfte Bewegung */
             }
+            &:hover > img {
+                animation: wobble 0.8s ease-in-out infinite; /* Animation bei Hover */
+              }
             >div{
                 width: 88px;
                 height: 101px;
@@ -167,14 +192,19 @@
             color: white;
             justify-content: center;
             align-items: center;
+           // cursor: pointer;
 
             >img{
                 
                 width: 56.69px;
                 height: 60px;
-                margin-bottom: 8px;
-               
+                margin-bottom: 8px; 
+                transition: transform 0.3s ease; /* Transition für sanfte Bewegung */
             }
+            &:hover > img {
+                animation: wobble 0.8s ease-in-out infinite; /* Animation bei Hover */
+              }
+           
             >div{
                 width: 88px;
                 height: 101px;
@@ -195,8 +225,11 @@
                 width: 60px;
                 height: 60px;
                 margin-bottom: 8px;
-               
+                transition: transform 0.3s ease; /* Transition für sanfte Bewegung */
             }
+            &:hover > img {
+                animation: wobble 0.8s ease-in-out infinite; /* Animation bei Hover */
+              }
             >div{
                 width: 88px;
                 height: 101px;
@@ -218,8 +251,11 @@
                 height: 60px;
                 gap: 10px;
                 margin-bottom: 8px;
-               
+                transition: transform 0.3s ease; /* Transition für sanfte Bewegung */
             }
+            &:hover > img {
+                animation: wobble 0.8s ease-in-out infinite; /* Animation bei Hover */
+              }
             >div{
                 width: 88px;
                 height: 120px;
@@ -234,8 +270,28 @@
             color: white;
             justify-content: center;
             align-items: center;
+            position: relative;
+            display: inline-block;
+            .main-image {
+                width: 100%; /* Setze die gewünschte Breite für das Hauptbild */
+                height: auto; /* Erhält das Seitenverhältnis */
+              }
+              .overlay-image {
+                position: absolute;
+                top: -40px;
+                left: 0;
+                width: auto; /* Das Overlay-Bild soll genauso breit sein wie das Hauptbild */
+                height: 100%;
+                opacity: 0; /* Das Overlay ist im normalen Zustand unsichtbar */
+                transition: opacity 0.3s ease; /* Sanfter Übergang */
+              }
+            
+              &:hover .overlay-image {
+                opacity: 1; /* Das Overlay-Bild wird sichtbar, wenn der Hover aktiviert ist */
+              }
+            
+            
 
-          
             >div{
                 width: 88px;
                 height: 120px;
@@ -252,6 +308,7 @@
         //left: 869px;
         display: flex;
         flex-direction: column;
+        //border: 2px solid rgba(255, 255, 255, 1);
 
         .skills-line{
            
@@ -325,6 +382,7 @@
             border-radius: 10px;
             padding: 15px 30px 15px 30px;
             gap: 10px;
+            cursor: pointer;
           
             color: white;
             font-size: 23px;
@@ -339,6 +397,18 @@
             }
         
         }
+        /* Keyframes für die Wipp-Animation */
+@keyframes wobble {
+    0% {
+      transform: translateY(0); /* Startposition */
+    }
+    50% {
+      transform: translateY(-10px); /* Nach oben bewegen */
+    }
+    100% {
+      transform: translateY(0); /* Zurück zur Startposition */
+    }
+  }
         
 
     }
