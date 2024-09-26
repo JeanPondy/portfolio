@@ -20,4 +20,21 @@
       Portfolio
     </button>
   </div>
+  <div class="burger-menu" (click)="toggleMobileMenu()">
+    <img src="./assets/img/burger-menu.png" alt="Menu" />
+  </div>
+</div>
+
+<div class="mobile-menu-overlay" [class.active]="isMobileMenuOpen">
+  <div class="mobile-menu">
+    <button (click)="scrollToSection('about-me'); closeMobileMenu()">
+      About me
+    </button>
+    <button (click)="scrollToSection('my-skills'); closeMobileMenu()">
+      Skills
+    </button>
+    <button (click)="scrollToSection('my-portfolio'); closeMobileMenu()">
+      Portfolio
+    </button>
+  </div>
 </div>

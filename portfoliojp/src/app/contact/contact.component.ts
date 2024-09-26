@@ -2,11 +2,12 @@ import { CommonModule } from '@angular/common';
 import { Component, inject } from '@angular/core';
 import { FormsModule, NgForm } from '@angular/forms';
 import { HttpClient, HttpClientModule } from '@angular/common/http'; // Import HttpClientModule
+import { RouterModule } from '@angular/router'; 
 
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [CommonModule, FormsModule, HttpClientModule], // HttpClientModule hier importieren
+  imports: [CommonModule, FormsModule, HttpClientModule,RouterModule  ], // HttpClientModule hier importieren
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss'] // Korrigiere "styleUrl" zu "styleUrls"
 })

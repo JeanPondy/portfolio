@@ -8,22 +8,27 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
+  activeSection: string = '';
+  isMobileMenuOpen: boolean = false;
 
-  activeSection: string = ''; // Variable, um den aktiven Abschnitt zu verfolgen
-
-  // Methode, um zu einem bestimmten Abschnitt zu scrollen und dabei 80px Offset oben zu lassen
   scrollToSection(section: string) {
-    this.activeSection = section;  // Setze den aktiven Abschnitt
-    
+    this.activeSection = section;
     const element = document.getElementById(section);
     if (element) {
-      const yOffset = -220; // 80px Abstand vom oberen Rand
+      const yOffset = -220;
       const yPosition = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
-
       window.scrollTo({
         top: yPosition,
         behavior: 'smooth'
       });
     }
+  }
+
+  toggleMobileMenu() {
+    this.isMobileMenuOpen = !this.isMobileMenuOpen;
+  }
+
+  closeMobileMenu() {
+    this.isMobileMenuOpen = false;
   }
 }

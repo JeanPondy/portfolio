@@ -3,7 +3,11 @@
     margin: 0;
     font-family: "bangers", sans-serif;
   }
-  body {
+.datenschutzerklärung {
+  position: absolute;
+  top: -20px;
+ 
+  z-index: 1001;
     font-family: "zabars", Arial, Helvetica, sans-serif;
     height: auto;
     display: flex;
@@ -11,10 +15,11 @@
     justify-content: center;
     align-items: center;
     margin: 0;
+    color: #fff;
     //background-image: url("img/5_background/layers/air.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: repeat-y;
+    background-color: rgba(20, 29, 47, 1);
+    //background-color: #fff;
+   
   }
   .menu-bar {
     display: flex;

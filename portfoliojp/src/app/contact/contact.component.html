@@ -75,17 +75,21 @@
             />
             <label for="privacyPolicy" class="privacy-policy-text">
               I've read the
-              <a href="URL_ZUR_DATENSCHUTZERKLÄRUNG" class="privacy-policy-link"
-                >privacy policy</a
+              <a
+                href="/privacy-policy"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="privacy-policy-link"
               >
+                privacy policy
+              </a>
               and agree to the processing of my data as outlined.
             </label>
-            <span
-              *ngIf="!contactData.privacyPolicy"
-              style="color: rgb(211, 5, 5)"
-            >
-              Please accept the privacy policy.
-            </span>
+            <div *ngIf="contactForm.submitted && !contactData.privacyPolicy">
+              <span style="color: rgb(211, 5, 5)">
+                Please accept the privacy policy.
+              </span>
+            </div>
           </div>
 
           <!-- Submit Button -->
