@@ -2,18 +2,13 @@
     position: absolute;
     top: 6100px;  //top: 6123px; 
     width: 1440px;
-    width: cover;
+    width: 99.9%;
     height: 291px;
     border-top: 4px solid rgba(112, 230, 28, 1);
    //border-top: 4px solid rgb(235, 237, 233)
    display: flex;
    justify-content: space-around;
    align-items: center;
-
-   
-  
-   
-  
 
    .logo-legal{
     width: 216px;
@@ -131,8 +126,73 @@
   
 
 }
+.legal2{
+    width: 98px;
+    height: 32px;
+    //margin-top: 45px;
+    padding: 5px 0px 5px 0px;
+    gap: 3px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 8px;
+    display: none;
+
+    
+
+    .line{
+            width: 48px;
+            border-style: solid;
+            border-width: 1px;
+            color: rgba(112, 230, 28, 1);
+            margin-top: -8px;
+            opacity: 0; 
+            //transition: opacity 0.3s ease; 
+
+            &:hover{
+                opacity: 1; 
+   
+            }
+
+    }
+
+   
+
+}
 
 
+}
+
+/* -----------------------------responsive */
+
+@media (max-width: 799px) {
+    .footer{
+        flex-direction: column;
+
+        .legal{
+            display: none;
+
+        }
+        .legal2{
+            display: block;
+            margin-top: -8px;
+          
+        }
+        .copyR-name{
+            margin-top: 40px;
+        }
+        .git-mail-in{
+            margin-top: 8px;
+
+        }
+    }
+    h3{
+        font-size: 23px;
+    }
+ 
 }
 
 
