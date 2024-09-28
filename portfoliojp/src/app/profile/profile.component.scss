@@ -1,3 +1,8 @@
+.ober{
+    display: flex;
+    //width: 99.9%;
+   
+}
 
 .hero{
     position: absolute;
@@ -6,6 +11,10 @@
     top: 297px;
    
     //display: flex;
+    //background-color: rgba(255, 255, 255, 1);
+    //border: 2px solid rgba(255, 255, 255, 1);
+    
+
 
 }
 
@@ -19,6 +28,8 @@
     display: flex;
     justify-content: center;
     align-items:start;
+   //background-color: rgba(255, 255, 255, 1);
+    //border: 2px solid rgba(255, 255, 255, 1);
   
 }
 
@@ -43,6 +54,7 @@ p{
     width: 152px;
     line-height: 76.8px;
     margin-top: 48px;
+    //border: 2px solid rgba(255, 255, 255, 1);
   
 }
 .frontend{
@@ -55,6 +67,7 @@ p{
     color: rgba(151, 71, 255, 1) ;
     line-height: 69.6px;
     margin-top: -48px;
+    //border: 2px solid rgba(255, 255, 255, 1);
 }
 .name-beruf{
     margin-left: -24px;
@@ -68,18 +81,13 @@ p{
     font-size: 90px;
     line-height: 108px;
 }
-.ober{
-    display: flex;
-    display: none;
-  
-}
 
 .btn-talk{
     width: 165px;
     height: 58px;
     justify-content: center;
     align-items: center;
-   margin-left: 160px;
+    margin-left: 160px;
     border-radius: 10px;
     padding: 15px 30px 15px 30px;
     gap: 10px;
@@ -115,11 +123,12 @@ p{
     width: 566px;
     height: 40px;
     top: 903px;
-   
     color: white;
-
+    //border: 2px solid rgba(255, 255, 255, 1);
+   
     .references-line{
         display: flex;
+
         gap: 32px;
       
         
@@ -143,7 +152,8 @@ p{
     .mail{
         font-family: Poppins;
         font-weight: 400;
-        font-size: 23px;
+        //font-size: 20px;
+        font-size: 20px;
         line-height: 27.6px;
         color: rgba(255, 255, 255, 1);
         cursor: pointer;
@@ -161,11 +171,451 @@ p{
         color: rgba(255, 255, 255, 1);
         transform: rotate(90deg); 
         margin-top: -160px;
+        //background-color: rgba(255, 255, 255, 1);
        
       
     }
 
     &:hover{
         cursor: pointer;
+    }
+}
+
+/* ------------------------------responsive */
+
+@media (max-width: 1463px) {
+    .references{
+
+        .scroll-down{
+            left: 1044px;
+        }
+    }
+}
+@media (max-width: 1350px) {
+
+   
+    .ober{
+
+        .hero{
+            width: 1300px
+          
+        }
+        .iam-frontend{
+            width: 658px;
+        }
+    }
+} 
+@media (max-width: 1304px) {
+    .ober{
+
+
+        .hero{
+            width: 950px;
+           
+          
+        }
+        .iam-frontend{
+            width: 428px;
+            .iam{
+                font-size: 42px;
+            }
+
+           .name-beruf{
+            margin-left: -24px;
+
+            .name{
+                font-size: 44px;
+                margin-top: 36px;
+                margin-left: -32px;
+              
+               
+            }
+            .frontend{
+                font-size: 28px;
+                margin-top: -58px;
+                margin-left: -32px;
+                
+
+            }
+            .btn-talk{
+                width: 133px;
+                height: 49px;
+                margin-left: 40px;
+            }
+           
+
+           }
+        }
+        .references{
+
+            .scroll-down{
+                left: 844px;
+            }
+        }
+    }
+} 
+
+@media (max-width: 1060px) {
+
+
+    .references{
+        top: 1059px;
+
+        .scroll-down{
+            display: none;
+        }
+    }
+    .ober{
+
+        .profile-pic{
+
+            .p-pic{
+                position: absolute;
+                width: 410.34px;
+                //height: 447.82px;
+                height: 600.82px;
+                top: 10px;
+                left: -0.02px;
+                //margin-top: 120px;
+                margin-left: 160px;
+                background-image: url('./../../../public/assets/img/purple-shadow.png'), url('./../../../public/assets/img/green-shadow.png');
+            
+
+            }
+        }
+
+        .hero{
+            position: absolute;
+            width: 365px;
+            height: 239px;
+            //top: 979px;
+            top: 759px;
+            //left: -600px;
+            left: -470px;
+           
+
+        }
+       
+    }
+}
+@media (max-width: 730px) {
+
+
+    .references{
+        top: 1059px;
+
+        .scroll-down{
+            display: none;
+        }
+    }
+    .ober{
+
+        .profile-pic{
+
+            .p-pic{
+                position: absolute;
+                width: 410.34px;
+                //height: 447.82px;
+                height: 600.82px;
+                top: 10px;
+                left: -0.02px;
+                //margin-top: 120px;
+                margin-left: 100px;
+            
+            }
+        }
+
+        .hero{
+            position: absolute;
+            width: 365px;
+            height: 239px;
+            //top: 979px;
+            top: 759px;
+            //left: -600px;
+            left: -530px;
+           
+
+        }
+       
+    }
+}
+@media (max-width: 590px) {
+
+
+    .references{
+        top: 1059px;
+        width: 300px;
+
+        .references-line{
+            margin-left: 0px;
+             }
+      
+       
+
+        .scroll-down{
+            display: none;
+        }
+        .mail{
+            display: none;
+        }
+      
+    }
+    .ober{
+
+        .profile-pic{
+
+            .p-pic{
+                position: absolute;
+                width: 410.34px;
+                //height: 447.82px;
+                height: 600.82px;
+                top: 10px;
+                left: -0.02px;
+                //margin-top: 120px;
+                margin-left: 50px;
+            
+            }
+        }
+
+        .hero{
+            position: absolute;
+            width: 365px;
+            height: 239px;
+            //top: 979px;
+            top: 759px;
+            //left: -600px;
+            left: -580px;
+           
+
+        }
+       
+    }
+}
+@media (max-width: 490px) {
+
+
+    .references{
+        top: 900px;
+        width: 300px;
+
+        .references-line{
+            margin-left: 0px;
+             }
+      
+       
+
+        .scroll-down{
+            display: none;
+        }
+        .mail{
+            display: none;
+        }
+      
+    }
+    .ober{
+
+        .profile-pic{
+
+            .p-pic{
+                position: absolute;
+                width: 370.34px;
+                //height: 447.82px;
+                height: 448.11px;
+                top: 10px;
+                left: -0.02px;
+                //margin-top: 120px;
+                margin-left: 6px;
+            
+            }
+        }
+
+        .hero{
+            position: absolute;
+            width: 365px;
+            height: 239px;
+            //top: 979px;
+            top: 600px;
+            //left: -600px;
+            left: -670px;
+           
+
+        }
+       
+    }
+}
+@media (max-width: 400px) {
+
+
+    .references{
+        top: 900px;
+        width: 300px;
+
+        .references-line{
+            margin-left: 0px;
+             }
+      
+       
+
+        .scroll-down{
+            display: none;
+        }
+        .mail{
+            display: none;
+        }
+      
+    }
+    .ober{
+
+        .profile-pic{
+
+            .p-pic{
+                position: absolute;
+                width: 370.34px;
+                //height: 447.82px;
+                height: 448.11px;
+                top: 10px;
+                left: -0.02px;
+                //margin-top: 120px;
+                margin-left: -4px;
+            
+            }
+        }
+
+        .hero{
+            position: absolute;
+            width: 365px;
+            height: 239px;
+            //top: 979px;
+            top: 600px;
+            //left: -600px;
+            left: -676px;
+           
+
+        }
+       
+    }
+}
+@media (max-width: 380px) {
+
+
+    .references{
+        top: 900px;
+        width: 300px;
+
+        .references-line{
+            margin-left: 0px;
+             }
+      
+       
+
+        .scroll-down{
+            display: none;
+        }
+        .mail{
+            display: none;
+        }
+      
+    }
+    .ober{
+
+        .profile-pic{
+
+            .p-pic{
+                position: absolute;
+                width: 320.34px;
+                //height: 447.82px;
+                height: 448.11px;
+                top: 10px;
+                left: -0.02px;
+                //margin-top: 120px;
+                margin-left: 4px;
+            
+            }
+        }
+
+        .hero{
+            position: absolute;
+            width: 305px;
+            height: 239px;
+            //top: 979px;
+            top: 600px;
+            //left: -600px;
+            left: -690px;
+            padding-left: 2px;
+            .iam-frontend{
+                width: 390px;
+
+                .name-beruf{
+                    .frontend{
+                    font-size: 23px;
+                    }
+                }
+            }
+           
+
+        }
+       
+    }
+}
+@media (max-width: 350px) {
+
+
+    .references{
+       
+        width: 300px;
+
+        .references-line{
+            margin-left: 0px;
+             }
+      
+       
+
+        .scroll-down{
+            display: none;
+        }
+        .mail{
+            display: none;
+        }
+      
+    }
+    .ober{
+
+        .profile-pic{
+
+            .p-pic{
+                position: absolute;
+                width: 310.34px;
+                //height: 447.82px;
+                height: 448.11px;
+                top: 10px;
+                left: -0.02px;
+                //margin-top: 120px;
+                margin-left: -8px;
+            
+            }
+        }
+
+        .hero{
+            position: absolute;
+            width: 305px;
+            height: 239px;
+            //top: 979px;
+            top: 600px;
+            //left: -600px;
+            left: -700px;
+            padding-left: 2px;
+            .iam-frontend{
+                width: 390px;
+
+                .name-beruf{
+                    .frontend{
+                    font-size: 23px;
+                    }
+                }
+            }
+           
+
+        }
+       
     }
 }
