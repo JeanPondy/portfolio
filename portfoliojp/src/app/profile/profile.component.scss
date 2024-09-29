@@ -1,6 +1,7 @@
 .ober{
     display: flex;
     //width: 99.9%;
+   //display: none;
    
 }
 
@@ -183,7 +184,7 @@ p{
 
 /* ------------------------------responsive */
 
-@media (max-width: 1463px) {
+@media (max-width: 1438px) {
     .references{
 
         .scroll-down{
@@ -202,6 +203,12 @@ p{
         }
         .iam-frontend{
             width: 658px;
+        }
+        .references{
+
+            .scroll-down{
+                left: 844px;
+            }
         }
     }
 } 
@@ -246,12 +253,7 @@ p{
 
            }
         }
-        .references{
-
-            .scroll-down{
-                left: 844px;
-            }
-        }
+       
     }
 } 
 
@@ -395,7 +397,7 @@ p{
 
 
     .references{
-        top: 900px;
+        top: 1020px;
         width: 300px;
 
         .references-line{
@@ -421,7 +423,7 @@ p{
                 width: 370.34px;
                 //height: 447.82px;
                 height: 448.11px;
-                top: 10px;
+                top: 60px;
                 left: -0.02px;
                 //margin-top: 120px;
                 margin-left: 6px;
@@ -434,7 +436,7 @@ p{
             width: 365px;
             height: 239px;
             //top: 979px;
-            top: 600px;
+            top: 690px;
             //left: -600px;
             left: -670px;
            
@@ -447,7 +449,7 @@ p{
 
 
     .references{
-        top: 900px;
+        top: 1020px;
         width: 300px;
 
         .references-line{
@@ -473,7 +475,7 @@ p{
                 width: 370.34px;
                 //height: 447.82px;
                 height: 448.11px;
-                top: 10px;
+                top: 60px;
                 left: -0.02px;
                 //margin-top: 120px;
                 margin-left: -4px;
@@ -486,7 +488,7 @@ p{
             width: 365px;
             height: 239px;
             //top: 979px;
-            top: 600px;
+            top: 690px;
             //left: -600px;
             left: -676px;
            
@@ -499,7 +501,7 @@ p{
 
 
     .references{
-        top: 900px;
+        top: 1020px;
         width: 300px;
 
         .references-line{
@@ -525,7 +527,7 @@ p{
                 width: 320.34px;
                 //height: 447.82px;
                 height: 448.11px;
-                top: 10px;
+                top: 60px;
                 left: -0.02px;
                 //margin-top: 120px;
                 margin-left: 4px;
@@ -538,7 +540,7 @@ p{
             width: 305px;
             height: 239px;
             //top: 979px;
-            top: 600px;
+            top: 690px;
             //left: -600px;
             left: -690px;
             padding-left: 2px;
@@ -587,7 +589,7 @@ p{
                 width: 310.34px;
                 //height: 447.82px;
                 height: 448.11px;
-                top: 10px;
+                top: 60px;
                 left: -0.02px;
                 //margin-top: 120px;
                 margin-left: -8px;
@@ -600,7 +602,7 @@ p{
             width: 305px;
             height: 239px;
             //top: 979px;
-            top: 600px;
+            top: 690px;
             //left: -600px;
             left: -700px;
             padding-left: 2px;

@@ -6,7 +6,8 @@
     left: 100px;
     //display: flex;
     //border: 2px solid rgba(255, 255, 255, 1);
-    display: none;
+    //display: none;
+
 
     .about-me{
         font-family: Poppins;
@@ -19,6 +20,7 @@
         color: white;
         //border: 2px solid rgba(255, 255, 255, 1);
         //background-image: url('../../../public/assets/img/backgroundshapes.png');
+        border: 2px solid rgba(255, 255, 255, 1);
         h2{
             height: 108px;
             //styleName: Style 1/t2;
@@ -27,12 +29,14 @@
             font-weight: 700;
             line-height: 108px;
             text-align: left;
+          
 
         }
 
        
         >div{
             margin-top: 24px;
+           
         }
 
         .message{
@@ -100,6 +104,8 @@
     //margin-left: 260px;
     border-radius: 50%;
     border: 4px solid rgba(112, 230, 28, 1); 
+
+   
   
   }
 
@@ -107,13 +113,15 @@
   
   .about-pic{
     //display: flex;
+   
+   
 
     .line-pic{
         position: absolute;
         top: 260px;
         left: 1176px;
-        //width: 367px;
-        width: 156px;
+        width: 25%;
+        //width: 156px;
         height: 0px;
         border-style: solid;
         color: rgba(112, 230, 28, 1);
@@ -125,4 +133,389 @@
   }
 
   
+  @media (max-width: 1669px){
+    .aboutMe-picture{
+        width: 1335px;
+       
 
+
+       
+        .about-pic{
+
+            .line-pic{
+                width: 11.7%;
+            }
+        }
+    }
+  }
+    
+  @media (max-width: 1438px){
+    .aboutMe-picture{
+        width: 1225px;
+      
+        
+        .about-pic{
+          
+           
+            .line-pic{
+                left: 1075px;
+                width: 11.5%;
+            }
+        }
+        .about-me-pic{
+            left: 620px;
+
+        }
+    }
+  }
+
+@media (max-width: 1350px) {
+    .aboutMe-picture{
+        width: 980px;
+      
+       
+        .about-pic{
+          
+           
+            .line-pic{
+               display: none;
+            }
+        }
+        .about-me-pic{
+            left: 515px;
+
+        }
+    }
+}
+@media (max-width: 1090px) {
+    .aboutMe-picture{
+        width: 880px;
+      
+       
+        .about-pic{
+          
+           
+            .line-pic{
+               display: none;
+            }
+        }
+        .about-me-pic{
+            top: 80px;
+            left: 515px;
+            width: 353px;
+            height: 353px;
+
+        }
+    }
+    
+}
+@media (max-width: 1060px) {
+    .aboutMe-picture{
+        width: 800px;
+
+        .about-me{
+            position: absolute;
+            top: 149px;
+            width: 800px;
+        }
+      
+       
+        .about-pic{
+          
+           
+            .line-pic{
+               display: none;
+            }
+        }
+        .about-me-pic{
+            display: none;
+
+        }
+    }
+    
+}
+@media (max-width: 940px) {
+    .aboutMe-picture{
+        width: 740px;
+
+        .about-me{
+            position: absolute;
+            top: 149px;
+            width: 740px;
+        }
+      
+       
+        .about-pic{
+          
+           
+            .line-pic{
+               display: none;
+            }
+        }
+        .about-me-pic{
+            display: none;
+
+        }
+    }
+    
+}
+@media (max-width: 880px) {
+    .aboutMe-picture{
+        width: 600px;
+
+        .about-me{
+            position: absolute;
+            top: 149px;
+            width: 600px;
+        }
+      
+       
+        .about-pic{
+          
+           
+            .line-pic{
+               display: none;
+            }
+        }
+        .about-me-pic{
+            display: none;
+
+        }
+    }
+    
+}
+@media (max-width: 730px) {
+    .aboutMe-picture{
+        width: 460px;
+
+        .about-me{
+            position: absolute;
+            top: 149px;
+            width: 460px;
+            .message{
+                margin-top: -40px;
+            }
+        }
+      
+       
+        .about-pic{
+          
+           
+            .line-pic{
+               display: none;
+            }
+        }
+        .about-me-pic{
+            display: none;
+
+        }
+    }
+    
+}
+@media (max-width: 590px) {
+    .aboutMe-picture{
+        width: 370px;
+       
+
+        .about-me{
+            position: absolute;
+            top: 149px;
+            width: 370px;
+            height: 541px;
+
+            .message{
+                margin-top: -40px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 19.2px;
+                text-align: left;
+               
+                height: 95px;
+                border: 2px solid rgba(255, 255, 255, 1);
+            }
+            h2{
+                height: 108px;
+                //styleName: Style 1/t2;
+                font-family: Poppins;
+                font-size: 60px;
+                font-weight: 700;
+                line-height: 108px;
+                text-align: left;
+    
+            }
+        }
+      
+       
+        .about-pic{
+          
+           
+            .line-pic{
+               display: none;
+            }
+        }
+        .about-me-pic{
+            display: none;
+
+        }
+    }
+    
+}
+@media (max-width: 490px) {
+    .aboutMe-picture{
+        width: 342px;
+        left: 20px;
+        
+
+        .about-me{
+            position: absolute;
+            top: 149px;
+            width: 342px;
+            height: 541px;
+            left: 0px;
+            gap: 24px;
+
+            .message{
+                margin-top: -40px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 19.2px;
+                text-align: left;
+               
+                height: 95px;
+                border: 2px solid rgba(255, 255, 255, 1);
+                margin-bottom: 60px;
+            }
+            h2{
+                height: 108px;
+                //styleName: Style 1/t2;
+                font-family: Poppins;
+                font-size: 45px;
+                font-weight: 700;
+                line-height: 108px;
+                text-align: left;
+                margin-top: -32px;
+    
+            }
+        }
+      
+       
+        .about-pic{
+          
+           
+            .line-pic{
+               display: none;
+            }
+        }
+        .about-me-pic{
+            display: none;
+
+        }
+    }
+    
+}
+@media (max-width: 380px) {
+    .aboutMe-picture{
+        width: 322px;
+        left: 10px;
+        
+
+        .about-me{
+            position: absolute;
+            top: 149px;
+            width: 322px;
+            height: 541px;
+            left: 0px;
+            gap: 24px;
+
+            .message{
+                margin-top: -40px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 19.2px;
+                text-align: left;
+               
+                height: 95px;
+                border: 2px solid rgba(255, 255, 255, 1);
+                margin-bottom: 50px;
+            }
+            h2{
+                height: 108px;
+                //styleName: Style 1/t2;
+                font-family: Poppins;
+                font-size: 45px;
+                font-weight: 700;
+                line-height: 108px;
+                text-align: left;
+                margin-top: -32px;
+    
+            }
+        }
+      
+       
+        .about-pic{
+          
+           
+            .line-pic{
+               display: none;
+            }
+        }
+        .about-me-pic{
+            display: none;
+
+        }
+    }
+    
+}
+@media (max-width: 350px) {
+    .aboutMe-picture{
+        width: 302px;
+        left: 10px;
+        
+
+        .about-me{
+            position: absolute;
+            top: 149px;
+            width: 302px;
+            height: 541px;
+            left: 0px;
+            gap: 24px;
+
+            .message{
+                margin-top: -40px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 19.2px;
+                text-align: left;
+               
+                height: 95px;
+                border: 2px solid rgba(255, 255, 255, 1);
+                margin-bottom: 50px;
+            }
+            h2{
+                height: 108px;
+                //styleName: Style 1/t2;
+                font-family: Poppins;
+                font-size: 45px;
+                font-weight: 700;
+                line-height: 108px;
+                text-align: left;
+                margin-top: -32px;
+    
+            }
+        }
+      
+       
+        .about-pic{
+          
+           
+            .line-pic{
+               display: none;
+            }
+        }
+        .about-me-pic{
+            display: none;
+
+        }
+    }
+    
+}
