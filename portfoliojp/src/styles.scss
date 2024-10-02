@@ -10,7 +10,8 @@ body {
 }
 
 html, body { 
-  height: 6414px; 
+  //height: 6414px; 
+  height: autopx; 
 }
 /* 
 .big-bg {
@@ -173,7 +174,7 @@ html, body {
 @media (max-width: 730px){}
 @media (max-width: 590px){}
 @media (max-width: 490px){}
-@media (max-width: 380px){}
+@media (max-width: 388px){}
 @media (max-width: 350px){}
 
 
