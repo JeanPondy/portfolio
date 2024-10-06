@@ -2,6 +2,8 @@
     display: flex;
     //width: 99.9%;
    //display: none;
+
+  
    
 }
 
@@ -10,13 +12,11 @@
     width: 1344px;
     height: 646px;
     top: 297px;
+    left: 200px;
    
-    //display: flex;
-    //background-color: rgba(255, 255, 255, 1);
+
     //border: 2px solid rgba(255, 255, 255, 1);
     
-
-
 }
 
 
@@ -29,7 +29,9 @@
     display: flex;
     justify-content: center;
     align-items:start;
-   //background-color: rgba(255, 255, 255, 1);
+    //background-color: rgb(29,39,59);
+    
+    
     //border: 2px solid rgba(255, 255, 255, 1);
   
 }
@@ -68,11 +70,12 @@ p{
     color: rgba(151, 71, 255, 1) ;
     line-height: 69.6px;
     margin-top: -48px;
-    //border: 2px solid rgba(255, 255, 255, 1);
+    border: 2px solid rgba(255, 255, 255, 1);
 }
 .name-beruf{
     margin-left: -24px;
     height: 172px;
+    
 }
 
 .name{
@@ -94,26 +97,26 @@ p{
     gap: 10px;
     position: absolute;
     color: white;
+    margin-top: -24px;
  
     background: rgba(112, 230, 28, 1);
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 
     &:hover{
         
         background: rgba(151, 71, 255, 1);
-        scale: 1.2;
+        scale: 1.1;
+        cursor: pointer;
 
     }
 
 }
 
-.p-pic{
-   
-    margin-left: 80px;
-    margin-top: -34px;
-  
 
-   
+.p-pic{
+    margin-left: 360px;
+    margin-top: 60px; 
 }
 
 .references{
@@ -128,7 +131,10 @@ p{
     //border: 2px solid rgba(255, 255, 255, 1);
    
     .references-line{
+        position: absolute;
+        top: 0px;
         display: flex;
+        margin-top: 40px;
 
         gap: 32px;
       
@@ -183,6 +189,34 @@ p{
 }
 
 /* ------------------------------responsive */
+@media (max-width: 1669px) {
+    .ober{
+
+        .hero{
+            position: absolute;
+            width: 1344px;
+            height: 646px;
+            top: 297px;
+            left: 0px;
+           
+           
+            //display: flex;
+            //background-color: rgba(255, 255, 255, 1);
+            //border: 2px solid rgba(255, 255, 255, 1);
+            
+        }
+        .p-pic{
+         margin-left: 260px;
+         margin-top: 40px;
+        } 
+    }
+    .references{
+
+        .scroll-down{
+            left: 1044px;
+        }
+    }
+}
 
 @media (max-width: 1438px) {
     .references{
@@ -245,9 +279,11 @@ p{
 
             }
             .btn-talk{
-                width: 133px;
-                height: 49px;
+             
+                width: 154px;
+                height: 48px;
                 margin-left: 40px;
+               
             }
            
 
@@ -262,6 +298,10 @@ p{
 
     .references{
         top: 1059px;
+        top: 980px;
+        top: 778px;
+       
+     
 
         .scroll-down{
             display: none;
@@ -273,14 +313,13 @@ p{
 
             .p-pic{
                 position: absolute;
-                width: 410.34px;
-                //height: 447.82px;
-                height: 600.82px;
-                top: 10px;
+                width: 410.61px;
+                height: 448.11px;
+                top: -24px;
                 left: -0.02px;
                 //margin-top: 120px;
-                margin-left: 160px;
-                background-image: url('./../../../public/assets/img/purple-shadow.png'), url('./../../../public/assets/img/green-shadow.png');
+                margin-left: 260px;
+               // background-image: url('./../../../public/assets/img/purple-shadow.png'), url('./../../../public/assets/img/green-shadow.png');
             
 
             }
@@ -290,8 +329,8 @@ p{
             position: absolute;
             width: 365px;
             height: 239px;
-            //top: 979px;
-            top: 759px;
+           
+            top: 579px;
             //left: -600px;
             left: -470px;
            
@@ -300,11 +339,15 @@ p{
        
     }
 }
-@media (max-width: 730px) {
+@media (max-width: 980px) {
 
 
     .references{
         top: 1059px;
+        top: 980px;
+        top: 778px;
+       
+     
 
         .scroll-down{
             display: none;
@@ -316,14 +359,15 @@ p{
 
             .p-pic{
                 position: absolute;
-                width: 410.34px;
-                //height: 447.82px;
-                height: 600.82px;
-                top: 10px;
+                width: 410.61px;
+                height: 448.11px;
+                top: -24px;
                 left: -0.02px;
                 //margin-top: 120px;
-                margin-left: 100px;
+                margin-left: 260px;
+               // background-image: url('./../../../public/assets/img/purple-shadow.png'), url('./../../../public/assets/img/green-shadow.png');
             
+
             }
         }
 
@@ -331,51 +375,78 @@ p{
             position: absolute;
             width: 365px;
             height: 239px;
-            //top: 979px;
-            top: 759px;
+           
+            top: 579px;
             //left: -600px;
-            left: -530px;
+            left: -470px;
            
 
         }
        
     }
 }
-@media (max-width: 590px) {
+
+@media (max-width: 730px) {
 
 
     .references{
-        top: 1059px;
-        width: 300px;
-
-        .references-line{
-            margin-left: 0px;
-             }
-      
+        top: 980px;
+        top: 778px;
        
 
         .scroll-down{
             display: none;
         }
-        .mail{
-            display: none;
-        }
-      
     }
     .ober{
+        .iam-frontend{
+            width: 428px;
+            .iam{
+                font-size: 42px;
+            }
+
+           .name-beruf{
+            margin-left: -24px;
+
+            .name{
+                font-size: 44px;
+                margin-top: 36px;
+                margin-left: -32px;
+              
+               
+            }
+            .frontend{
+                font-size: 28px;
+                margin-top: -58px;
+                margin-left: -32px;
+                
+
+            }
+            .btn-talk{
+             
+                width: 154px;
+                height: 48px;
+                margin-left: 0px;
+               
+            }
+           
+
+           }
+        }
 
         .profile-pic{
 
             .p-pic{
                 position: absolute;
-                width: 410.34px;
-                //height: 447.82px;
-                height: 600.82px;
-                top: 10px;
+                width: 410.61px;
+                height: 448.11px;
+                top: -24px;
                 left: -0.02px;
                 //margin-top: 120px;
-                margin-left: 50px;
+                margin-left: 270px;
+               // background-image: url('./../../../public/assets/img/purple-shadow.png'), url('./../../../public/assets/img/green-shadow.png');
             
+
             }
         }
 
@@ -383,13 +454,95 @@ p{
             position: absolute;
             width: 365px;
             height: 239px;
-            //top: 979px;
-            top: 759px;
+           
+            top: 579px;
             //left: -600px;
+            left: -532px;
+           
+
+        }
+      
+       
+    }
+}
+@media (max-width: 570px) {
+
+
+    .references{
+        width: 566px;
+        width: 420px;
+        top: 778px;
+
+        .references-line{
+            gap: 24px;
+        }
+       
+
+      
+    }
+    .ober{
+        .iam-frontend{
+            width: 428px;
+            .iam{
+                font-size: 42px;
+            }
+
+           .name-beruf{
+            margin-left: -24px;
+
+            .name{
+                font-size: 44px;
+                margin-top: 36px;
+                margin-left: -32px;
+              
+               
+            }
+            .frontend{
+                font-size: 28px;
+                margin-top: -58px;
+                margin-left: -32px;
+                
+
+            }
+            .btn-talk{
+             
+                width: 154px;
+                height: 48px;
+                margin-left: 0px;
+               
+            }
+           
+
+           }
+        }
+
+        .profile-pic{
+
+            .p-pic{
+                position: absolute;
+                width: 390.61px;
+                height: 448.11px;
+                top: -24px;
+                left: -0.02px;
+                //margin-top: 120px;
+                margin-left: 300px;
+               // background-image: url('./../../../public/assets/img/purple-shadow.png'), url('./../../../public/assets/img/green-shadow.png');
+            
+
+            }
+        }
+
+        .hero{
+            position: absolute;
+            width: 365px;
+            height: 239px;
+           
+            top: 579px;
             left: -580px;
            
 
         }
+      
        
     }
 }
@@ -397,37 +550,69 @@ p{
 
 
     .references{
-        top: 1020px;
         width: 300px;
+        top: 778px;
 
         .references-line{
-            margin-left: 0px;
-             }
-      
-       
-
-        .scroll-down{
-            display: none;
+            gap: 24px;
+            margin-left: -20px;
         }
         .mail{
             display: none;
         }
+       
+
       
     }
     .ober{
+        .iam-frontend{
+            width: 428px;
+            .iam{
+                font-size: 42px;
+            }
+
+           .name-beruf{
+            margin-left: -24px;
+
+            .name{
+                font-size: 44px;
+                margin-top: 36px;
+                margin-left: -32px;
+              
+               
+            }
+            .frontend{
+                font-size: 28px;
+                margin-top: -58px;
+                margin-left: -32px;
+                
+
+            }
+            .btn-talk{
+             
+                width: 154px;
+                height: 48px;
+                margin-left: 0px;
+               
+            }
+           
+
+           }
+        }
 
         .profile-pic{
 
             .p-pic{
                 position: absolute;
-                width: 370.34px;
-                //height: 447.82px;
+                width: 370.61px;
                 height: 448.11px;
-                top: 60px;
+                top: -24px;
                 left: -0.02px;
                 //margin-top: 120px;
-                margin-left: 6px;
+                margin-left: 360px;
+               // background-image: url('./../../../public/assets/img/purple-shadow.png'), url('./../../../public/assets/img/green-shadow.png');
             
+
             }
         }
 
@@ -435,13 +620,13 @@ p{
             position: absolute;
             width: 365px;
             height: 239px;
-            //top: 979px;
-            top: 690px;
-            //left: -600px;
+           
+            top: 579px;
             left: -670px;
            
 
         }
+      
        
     }
 }
@@ -449,37 +634,72 @@ p{
 
 
     .references{
-        top: 1020px;
         width: 300px;
+        top: 778px;
 
         .references-line{
-            margin-left: 0px;
-             }
-      
-       
-
-        .scroll-down{
-            display: none;
+            gap: 24px;
+            margin-left: -20px;
         }
         .mail{
             display: none;
         }
+       
+
       
     }
     .ober{
+      /*   background-image: url('./../../../public/assets/img/purple-shadow.png'), url('./../../../public/assets/img/green-shadow.png'); */
+    
+        .iam-frontend{
+            width: 428px;
+            .iam{
+                font-size: 42px;
+            }
+
+           .name-beruf{
+            margin-left: -24px;
+
+            .name{
+                font-size: 44px;
+                margin-top: 36px;
+                margin-left: -32px;
+              
+               
+            }
+            .frontend{
+                font-size: 28px;
+                margin-top: -58px;
+                margin-left: -32px;
+                
+
+            }
+            .btn-talk{
+             
+                width: 154px;
+                height: 48px;
+                margin-left: 0px;
+               
+            }
+           
+
+           }
+        }
 
         .profile-pic{
 
             .p-pic{
                 position: absolute;
-                width: 370.34px;
-                //height: 447.82px;
+                width: 360.61px;
                 height: 448.11px;
-                top: 60px;
+                top: -24px;
                 left: -0.02px;
                 //margin-top: 120px;
-                margin-left: -4px;
+                margin-left: 380px;
+                //display: none;
+              
             
+
             }
         }
 
@@ -487,13 +707,102 @@ p{
             position: absolute;
             width: 365px;
             height: 239px;
-            //top: 979px;
-            top: 690px;
-            //left: -600px;
-            left: -676px;
+           
+            top: 579px;
+            left: -680px;
+           
            
 
         }
+      
+       
+    }
+}
+@media (max-width: 388px) {
+
+
+    .references{
+        width: 300px;
+        top: 778px;
+
+        .references-line{
+            gap: 24px;
+            margin-left: -20px;
+        }
+        .mail{
+            display: none;
+        }
+       
+
+      
+    }
+    .ober{
+      /*   background-image: url('./../../../public/assets/img/purple-shadow.png'), url('./../../../public/assets/img/green-shadow.png'); */
+    
+        .iam-frontend{
+            width: 428px;
+            .iam{
+                font-size: 42px;
+            }
+
+           .name-beruf{
+            margin-left: -24px;
+
+            .name{
+                font-size: 44px;
+                margin-top: 36px;
+                margin-left: -32px;
+              
+               
+            }
+            .frontend{
+                font-size: 28px;
+                margin-top: -58px;
+                margin-left: -32px;
+                
+
+            }
+            .btn-talk{
+             
+                width: 154px;
+                height: 48px;
+                margin-left: 0px;
+               
+            }
+           
+
+           }
+        }
+
+        .profile-pic{
+
+            .p-pic{
+                position: absolute;
+                width: 340.61px;
+                height: 448.11px;
+                top: -24px;
+                left: -0.02px;
+                //margin-top: 120px;
+                margin-left: 380px;
+                //display: none;
+              
+            
+
+            }
+        }
+
+        .hero{
+            position: absolute;
+            width: 365px;
+            height: 239px;
+           
+            top: 579px;
+            left: -680px;
+           
+           
+
+        }
+      
        
     }
 }
@@ -501,21 +810,18 @@ p{
 
 
     .references{
-        top: 1020px;
         width: 300px;
+        top: 778px;
 
         .references-line{
-            margin-left: 0px;
-             }
-      
-       
-
-        .scroll-down{
-            display: none;
+            gap: 24px;
+            margin-left: -20px;
         }
         .mail{
             display: none;
         }
+       
+
       
     }
     .ober{
@@ -525,12 +831,13 @@ p{
             .p-pic{
                 position: absolute;
                 width: 320.34px;
-                //height: 447.82px;
+               
                 height: 448.11px;
-                top: 60px;
+               
                 left: -0.02px;
-                //margin-top: 120px;
+               
                 margin-left: 4px;
+                margin-left: 430px;
             
             }
         }
@@ -540,7 +847,7 @@ p{
             width: 305px;
             height: 239px;
             //top: 979px;
-            top: 690px;
+            top: 579px;
             //left: -600px;
             left: -690px;
             padding-left: 2px;
@@ -563,21 +870,18 @@ p{
 
 
     .references{
-       
         width: 300px;
+        top: 778px;
 
         .references-line{
-            margin-left: 0px;
-             }
-      
-       
-
-        .scroll-down{
-            display: none;
+            gap: 24px;
+            margin-left: -20px;
         }
         .mail{
             display: none;
         }
+       
+
       
     }
     .ober{
@@ -586,13 +890,14 @@ p{
 
             .p-pic{
                 position: absolute;
-                width: 310.34px;
-                //height: 447.82px;
+                width: 280.34px;
+               
                 height: 448.11px;
-                top: 60px;
+               
                 left: -0.02px;
-                //margin-top: 120px;
-                margin-left: -8px;
+               
+                margin-left: 4px;
+                margin-left: 460px;
             
             }
         }
@@ -602,16 +907,17 @@ p{
             width: 305px;
             height: 239px;
             //top: 979px;
-            top: 690px;
+            top: 579px;
             //left: -600px;
-            left: -700px;
+            left: -690px;
             padding-left: 2px;
+
             .iam-frontend{
-                width: 390px;
+                width: 350px;
 
                 .name-beruf{
                     .frontend{
-                    font-size: 23px;
+                    font-size: 20px;
                     }
                 }
             }
@@ -621,3 +927,10 @@ p{
        
     }
 }
+
+
+
+
+
+
+

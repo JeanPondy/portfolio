@@ -1,6 +1,6 @@
 <div id="ober" class="ober">
   <div class="profile-pic">
-    <img class="p-pic" src="./assets/img/mapubi.png" alt="" />
+    <img class="p-pic" src="./assets/img/moi.png" alt="" />
   </div>
   <div class="hero">
     <div class="iam-frontend">
@@ -9,7 +9,14 @@
         <h1 class="name">Jean Pondy</h1>
         <p class="frontend">FRONTEND DEVELOPER</p>
 
-        <button mat-fab extended class="btn-talk">Let´s talk</button>
+        <button
+          mat-fab
+          extended
+          class="btn-talk"
+          (click)="scrollToSection('contact')"
+        >
+          Let´s talk
+        </button>
       </div>
     </div>
   </div>
@@ -20,7 +27,11 @@
     <div class="references-line">
       <div class="line"></div>
       <img src="./assets/img/github.png" alt="" />
-      <img src="./assets/img/email.png" alt="" />
+      <img
+        (click)="scrollToSection('contact')"
+        src="./assets/img/email.png"
+        alt=""
+      />
       <img src="./assets/img/linkedin.png" alt="" />
       <div
         [class.active]="activeSection === 'about-me'"
