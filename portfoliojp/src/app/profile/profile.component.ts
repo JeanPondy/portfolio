@@ -10,6 +10,14 @@ import {MatIconModule} from '@angular/material/icon';
   styleUrl: './profile.component.scss'
 })
 export class ProfileComponent {
+  goToLinkedin(){
+    window.open('https://www.linkedin.com/in/jean-pondy-9244b0160/', '-blabk');
+  }
+
+  goToGithub(){
+    window.open('https://github.com/JeanPondy/portfolio', '-blabk');
+  }
+  /* --------------------------------------------------- */
 
   activeSection: string = ''; // Variable, um den aktiven Abschnitt zu verfolgen
 

@@ -26,13 +26,13 @@
   <div class="references">
     <div class="references-line">
       <div class="line"></div>
-      <img src="./assets/img/github.png" alt="" />
+      <img (click)="goToGithub()" src="./assets/img/github.png" alt="" />
       <img
         (click)="scrollToSection('contact')"
         src="./assets/img/email.png"
         alt=""
       />
-      <img src="./assets/img/linkedin.png" alt="" />
+      <img (click)="goToLinkedin()" src="./assets/img/linkedin.png" alt="" />
       <div
         [class.active]="activeSection === 'about-me'"
         (click)="scrollToSection('contact')"

@@ -9,12 +9,12 @@ import { Component } from '@angular/core';
 })
 export class JoinComponent {
 
-  goToElpolloloco(){
-    window.open('https://jean-pondy.com/el-pollo-loco-jp/', '-blabk');
+  goToJoin(){
+    window.open('https://jean-pondy.com/join/login.html', '-blabk');
   }
 
   goToGithub(){
-    window.open(' https://github.com/JeanPondy/elPolloLoco', '-blabk');
+    window.open('https://github.com/lindapreindl/Join', '-blabk');
   }
 
  

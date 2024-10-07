@@ -8,6 +8,15 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.scss'
 })
 export class FooterComponent {
+
+  goToLinkedin(){
+    window.open('https://www.linkedin.com/in/jean-pondy-9244b0160/', '-blabk');
+  }
+
+  goToGithub(){
+    window.open('https://github.com/JeanPondy/portfolio', '-blabk');
+  }
+  /* ---------------------------------------------------------- */
   activeSection: string = ''; // Variable, um den aktiven Abschnitt zu verfolgen
 
   // Methode, um zu einem bestimmten Abschnitt zu scrollen und dabei 80px Offset oben zu lassen
